@@ -9,7 +9,7 @@ services:
     environment:
       - DISPLAY=${DISPLAY} 
     volumes:
-      - /home/claudia/PFinalNautilus/:/root/catkin_ws/src
+      - /home/pedro/PFinalNautilus:/root/catkin_ws/src
       - /tmp/.X11-unix:/tmp/.X11-unix
       - /etc/localtime:/etc/localtime
     network_mode: host
